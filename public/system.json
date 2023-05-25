@@ -145,9 +145,23 @@
       "system": "a5e"
     },
     {
-      "name": "a5e-synergy-feats",
-      "label": "A5E SRD Synergy Feats",
-      "path": "packs/coreSynergyFeats.db",
+      "name": "a5e-pmg-adventuring-gear",
+      "label": "PMG Adventuring Gear",
+      "path": "packs/pmgAdventuringGear.db",
+      "type": "Item",
+      "system": "a5e"
+    },
+    {
+      "name": "a5e-pmg-backgrounds",
+      "label": "PMG Backgrounds",
+      "path": "packs/pmgBackgrounds.db",
+      "type": "Item",
+      "system": "a5e"
+    },
+    {
+      "name": "a5e-pmg-background-features",
+      "label": "PMG Background Features",
+      "path": "packs/pmgBackgroundFeatures.db",
       "type": "Item",
       "system": "a5e"
     },
@@ -155,6 +169,41 @@
       "name": "a5e-pmg-class-features",
       "label": "PMG Class Features",
       "path": "packs/pmgClassFeatures.db",
+      "type": "Item",
+      "system": "a5e"
+    },
+    {
+      "name": "a5e-pmg-feats",
+      "label": "PMG Feats",
+      "path": "packs/pmgFeats.db",
+      "type": "Item",
+      "system": "a5e"
+    },
+    {
+      "name": "a5e-pmg-magic-items",
+      "label": "PMG Magic Items",
+      "path": "packs/pmgMagicItems.db",
+      "type": "Item",
+      "system": "a5e"
+    },
+    {
+      "name": "a5e-pmg-maneuvers",
+      "label": "PMG Maneuvers",
+      "path": "packs/pmgManeuvers.db",
+      "type": "Item",
+      "system": "a5e"
+    },
+    {
+      "name": "a5e-pmg-rare-spells",
+      "label": "PMG Rare Spell Variants",
+      "path": "packs/pmgRareSpells.db",
+      "type": "Item",
+      "system": "a5e"
+    },
+    {
+      "name": "a5e-pmg-spells",
+      "label": "PMG Spells",
+      "path": "packs/pmgSpells.db",
       "type": "Item",
       "system": "a5e"
     }
