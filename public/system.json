@@ -150,6 +150,13 @@
       "path": "packs/coreSynergyFeats.db",
       "type": "Item",
       "system": "a5e"
+    },
+    {
+      "name": "a5e-pmg-class-features",
+      "label": "PMG Class Features",
+      "path": "packs/pmgClassFeatures.db",
+      "type": "Item",
+      "system": "a5e"
     }
   ],
   "languages": [
