@@ -35,119 +35,119 @@
     {
       "name": "a5e-adventuring-gear",
       "label": "A5E SRD Adventuring Gear",
-      "path": "packs/adventuringGear.db",
+      "path": "packs/coreAdventuringGear.db",
       "type": "Item",
       "system": "a5e"
     },
     {
       "name": "a5e-backgrounds",
       "label": "A5E SRD Backgrounds",
-      "path": "packs/backgrounds.db",
+      "path": "packs/coreBackgrounds.db",
       "type": "Item",
       "system": "a5e"
     },
     {
       "name": "a5e-background-features",
       "label": "A5E SRD Background Features",
-      "path": "packs/backgroundFeatures.db",
+      "path": "packs/coreBackgroundFeatures.db",
       "type": "Item",
       "system": "a5e"
     },
     {
       "name": "a5e-class-features",
       "label": "A5E SRD Class Features",
-      "path": "packs/classFeatures.db",
+      "path": "packs/coreClassFeatures.db",
       "type": "Item",
       "system": "a5e"
     },
     {
       "name": "a5e-cultures",
       "label": "A5E SRD Cultures",
-      "path": "packs/cultures.db",
+      "path": "packs/coreCultures.db",
       "type": "Item",
       "system": "a5e"
     },
     {
       "name": "a5e-culture-features",
       "label": "A5E SRD Culture Features",
-      "path": "packs/cultureFeatures.db",
+      "path": "packs/coreCultureFeatures.db",
       "type": "Item",
       "system": "a5e"
     },
     {
       "name": "a5e-destinies",
       "label": "A5E SRD Destinies",
-      "path": "packs/destinies.db",
+      "path": "packs/coreDestinies.db",
       "type": "Item",
       "system": "a5e"
     },
     {
       "name": "a5e-destiny-features",
       "label": "A5E SRD Destiny Features",
-      "path": "packs/destinyFeatures.db",
+      "path": "packs/coreDestinyFeatures.db",
       "type": "Item",
       "system": "a5e"
     },
     {
       "name": "a5e-feats",
       "label": "A5E SRD Feats",
-      "path": "packs/feats.db",
+      "path": "packs/coreFeats.db",
       "type": "Item",
       "system": "a5e"
     },
     {
       "name": "a5e-heritage-features",
       "label": "A5E SRD Heritage Features",
-      "path": "packs/heritageFeatures.db",
+      "path": "packs/coreHeritageFeatures.db",
       "type": "Item",
       "system": "a5e"
     },
     {
       "name": "a5e-magic-items",
       "label": "A5E SRD Magic Items",
-      "path": "packs/magicItems.db",
+      "path": "packs/coreMagicItems.db",
       "type": "Item",
       "system": "a5e"
     },
     {
       "name": "a5e-maneuvers",
       "label": "A5E SRD Maneuvers",
-      "path": "packs/maneuvers.db",
+      "path": "packs/coreManeuvers.db",
       "type": "Item",
       "system": "a5e"
     },
     {
       "name": "a5e-monsters",
       "label": "A5E SRD Monsters",
-      "path": "packs/monsters.db",
+      "path": "packs/coreMonsters.db",
       "type": "Actor",
       "system": "a5e"
     },
     {
       "name": "a5e-paragon-gifts",
       "label": "A5E SRD Paragon Gifts",
-      "path": "packs/paragonGifts.db",
+      "path": "packs/coreParagonGifts.db",
       "type": "Item",
       "system": "a5e"
     },
     {
       "name": "a5e-rare-spells",
       "label": "A5E SRD Rare Spell Variants",
-      "path": "packs/rareSpells.db",
+      "path": "packs/coreRareSpells.db",
       "type": "Item",
       "system": "a5e"
     },
     {
       "name": "a5e-spells",
       "label": "A5E SRD Spells",
-      "path": "packs/spells.db",
+      "path": "packs/coreSpells.db",
       "type": "Item",
       "system": "a5e"
     },
     {
       "name": "a5e-synergy-feats",
       "label": "A5E SRD Synergy Feats",
-      "path": "packs/synergyFeats.db",
+      "path": "packs/coreSynergyFeats.db",
       "type": "Item",
       "system": "a5e"
     }
