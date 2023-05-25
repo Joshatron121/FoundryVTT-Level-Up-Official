@@ -206,6 +206,48 @@
       "path": "packs/pmgSpells.db",
       "type": "Item",
       "system": "a5e"
+    },
+    {
+      "name": "a5e-rtbg-class-features",
+      "label": "RtBG Class Features",
+      "path": "packs/rtbgClassFeatures.db",
+      "type": "Item",
+      "system": "a5e"
+    },
+    {
+      "name": "a5e-rtbg-destinies",
+      "label": "RtBG Destinies",
+      "path": "packs/rtbgDestinies.db",
+      "type": "Item",
+      "system": "a5e"
+    },
+    {
+      "name": "a5e-rtbg-destiny-features",
+      "label": "RtBG Destiny Features",
+      "path": "packs/rtbgDestinyFeatures.db",
+      "type": "Item",
+      "system": "a5e"
+    },
+    {
+      "name": "a5e-rtbg-feats",
+      "label": "RtBG Feats",
+      "path": "packs/rtbgFeats.db",
+      "type": "Item",
+      "system": "a5e"
+    },
+    {
+      "name": "a5e-rtbg-rare-spells",
+      "label": "RtBG Rare Spell Variants",
+      "path": "packs/rtbgRareSpells.db",
+      "type": "Item",
+      "system": "a5e"
+    },
+    {
+      "name": "a5e-rtbg-spells",
+      "label": "RtBG Spells",
+      "path": "packs/rtbgSpells.db",
+      "type": "Item",
+      "system": "a5e"
     }
   ],
   "languages": [
