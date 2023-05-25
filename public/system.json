@@ -33,113 +33,106 @@
   ],
   "packs": [
     {
-      "name": "a5e-adventuring-gear",
-      "label": "A5E SRD Adventuring Gear",
+      "name": "a5e-core-adventuring-gear",
+      "label": "Adventuring Gear",
       "path": "packs/coreAdventuringGear.db",
       "type": "Item",
       "system": "a5e"
     },
     {
-      "name": "a5e-backgrounds",
-      "label": "A5E SRD Backgrounds",
+      "name": "a5e-core-backgrounds",
+      "label": "Backgrounds",
       "path": "packs/coreBackgrounds.db",
       "type": "Item",
       "system": "a5e"
     },
     {
-      "name": "a5e-background-features",
-      "label": "A5E SRD Background Features",
+      "name": "a5e-core-background-features",
+      "label": "Background Features",
       "path": "packs/coreBackgroundFeatures.db",
       "type": "Item",
       "system": "a5e"
     },
     {
-      "name": "a5e-class-features",
-      "label": "A5E SRD Class Features",
+      "name": "a5e-core-class-features",
+      "label": "Class Features",
       "path": "packs/coreClassFeatures.db",
       "type": "Item",
       "system": "a5e"
     },
     {
-      "name": "a5e-cultures",
-      "label": "A5E SRD Cultures",
+      "name": "a5e-core-cultures",
+      "label": "Cultures",
       "path": "packs/coreCultures.db",
       "type": "Item",
       "system": "a5e"
     },
     {
-      "name": "a5e-culture-features",
-      "label": "A5E SRD Culture Features",
+      "name": "a5e-core-culture-features",
+      "label": "Culture Features",
       "path": "packs/coreCultureFeatures.db",
       "type": "Item",
       "system": "a5e"
     },
     {
-      "name": "a5e-destinies",
-      "label": "A5E SRD Destinies",
+      "name": "a5e-core-destinies",
+      "label": "Destinies",
       "path": "packs/coreDestinies.db",
       "type": "Item",
       "system": "a5e"
     },
     {
-      "name": "a5e-destiny-features",
-      "label": "A5E SRD Destiny Features",
+      "name": "a5e-core-destiny-features",
+      "label": "Destiny Features",
       "path": "packs/coreDestinyFeatures.db",
       "type": "Item",
       "system": "a5e"
     },
     {
-      "name": "a5e-feats",
-      "label": "A5E SRD Feats",
+      "name": "a5e-core-feats",
+      "label": "Feats",
       "path": "packs/coreFeats.db",
       "type": "Item",
       "system": "a5e"
     },
     {
-      "name": "a5e-heritage-features",
-      "label": "A5E SRD Heritage Features",
+      "name": "a5e-core-heritage-features",
+      "label": "Heritage Features",
       "path": "packs/coreHeritageFeatures.db",
       "type": "Item",
       "system": "a5e"
     },
     {
-      "name": "a5e-magic-items",
-      "label": "A5E SRD Magic Items",
+      "name": "a5e-core-magic-items",
+      "label": "Magic Items",
       "path": "packs/coreMagicItems.db",
       "type": "Item",
       "system": "a5e"
     },
     {
-      "name": "a5e-maneuvers",
-      "label": "A5E SRD Maneuvers",
+      "name": "a5e-core-maneuvers",
+      "label": "Maneuvers",
       "path": "packs/coreManeuvers.db",
       "type": "Item",
       "system": "a5e"
     },
     {
-      "name": "a5e-monsters",
-      "label": "A5E SRD Monsters",
+      "name": "a5e-core-monsters",
+      "label": "Monsters",
       "path": "packs/coreMonsters.db",
       "type": "Actor",
       "system": "a5e"
     },
     {
-      "name": "a5e-paragon-gifts",
-      "label": "A5E SRD Paragon Gifts",
+      "name": "a5e-core-paragon-gifts",
+      "label": "Paragon Gifts",
       "path": "packs/coreParagonGifts.db",
       "type": "Item",
       "system": "a5e"
     },
     {
-      "name": "a5e-rare-spells",
-      "label": "A5E SRD Rare Spell Variants",
-      "path": "packs/coreRareSpells.db",
-      "type": "Item",
-      "system": "a5e"
-    },
-    {
-      "name": "a5e-spells",
-      "label": "A5E SRD Spells",
+      "name": "a5e-core-spells",
+      "label": "Spells",
       "path": "packs/coreSpells.db",
       "type": "Item",
       "system": "a5e"
@@ -194,13 +187,6 @@
       "system": "a5e"
     },
     {
-      "name": "a5e-pmg-rare-spells",
-      "label": "PMG Rare Spell Variants",
-      "path": "packs/pmgRareSpells.db",
-      "type": "Item",
-      "system": "a5e"
-    },
-    {
       "name": "a5e-pmg-spells",
       "label": "PMG Spells",
       "path": "packs/pmgSpells.db",
@@ -236,18 +222,83 @@
       "system": "a5e"
     },
     {
-      "name": "a5e-rtbg-rare-spells",
-      "label": "RtBG Rare Spell Variants",
-      "path": "packs/rtbgRareSpells.db",
-      "type": "Item",
-      "system": "a5e"
-    },
-    {
       "name": "a5e-rtbg-spells",
       "label": "RtBG Spells",
       "path": "packs/rtbgSpells.db",
       "type": "Item",
       "system": "a5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "A5E Core",
+      "sorting": "m",
+      "packs": [
+        "a5e-core-monsters",
+        "a5e-core-adventuring-gear",
+        "a5e-core-magic-items",
+        "a5e-core-maneuvers",
+        "a5e-core-spells"
+      ],
+      "folders": [
+        {
+          "name": "Player Options",
+          "sorting": "m",
+          "packs": [
+            "a5e-core-backgrounds",
+            "a5e-core-cultures",
+            "a5e-core-destinies",
+            "a5e-core-feats",
+            "a5e-core-background-features",
+            "a5e-core-class-features",
+            "a5e-core-culture-features",
+            "a5e-core-destiny-features",
+            "a5e-core-heritage-features",
+            "a5e-core-paragon-gifts"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Purple Martin Games",
+      "sorting": "m",
+      "packs": [
+        "a5e-pmg-adventuring-gear",
+        "a5e-pmg-magic-items",
+        "a5e-pmg-maneuvers",
+        "a5e-pmg-spells"
+      ],
+      "folders": [
+        {
+          "name": "Player Options",
+          "sorting": "m",
+          "packs": [
+            "a5e-pmg-backgrounds",
+            "a5e-pmg-feats",
+            "a5e-pmg-background-features",
+            "a5e-pmg-class-features"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Roll them Bones Gaming",
+      "sorting": "m",
+      "packs": [
+        "a5e-rtbg-spells"
+      ],
+      "folders": [
+        {
+          "name": "Player Options",
+          "sorting": "m",
+          "packs": [
+            "a5e-rtbg-destinies",
+            "a5e-rtbg-feats",
+            "a5e-rtbg-class-features",
+            "a5e-rtbg-destiny-features"
+          ]
+        }
+      ]
     }
   ],
   "languages": [
