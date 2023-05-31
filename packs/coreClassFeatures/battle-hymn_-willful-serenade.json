@@ -1,7 +1,7 @@
 {
 	"name": "Battle Hymn: Willful Serenade",
 	"type": "feature",
-	"img": "icons/svg/item-bag.svg",
+	"img": "icons/skills/wounds/injury-body-pain-gray.webp",
 	"effects": [],
 	"flags": {
 		"core": {
@@ -61,6 +61,7 @@
 				}
 			}
 		},
+		"concentration": false,
 		"featureType": "class",
 		"prerequisite": ""
 	},

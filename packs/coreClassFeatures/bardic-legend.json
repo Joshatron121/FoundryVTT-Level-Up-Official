@@ -1,7 +1,7 @@
 {
 	"name": "Bardic Legend",
 	"type": "feature",
-	"img": "icons/svg/item-bag.svg",
+	"img": "icons/skills/trades/academics-merchant-scribe.webp",
 	"effects": [],
 	"flags": {
 		"core": {
@@ -33,6 +33,7 @@
 				}
 			}
 		},
+		"concentration": false,
 		"featureType": "class",
 		"prerequisite": ""
 	},

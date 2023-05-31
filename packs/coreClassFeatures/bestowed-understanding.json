@@ -1,7 +1,7 @@
 {
 	"name": "Bestowed Understanding",
 	"type": "feature",
-	"img": "icons/svg/item-bag.svg",
+	"img": "icons/skills/social/diplomacy-handshake-gray.webp",
 	"effects": [],
 	"flags": {
 		"core": {
@@ -33,6 +33,7 @@
 				}
 			}
 		},
+		"concentration": false,
 		"featureType": "knack",
 		"prerequisite": ""
 	},

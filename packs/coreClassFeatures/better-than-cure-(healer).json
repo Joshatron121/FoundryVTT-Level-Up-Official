@@ -1,7 +1,7 @@
 {
 	"name": "Better Than Cure (Healer)",
 	"type": "feature",
-	"img": "icons/svg/item-bag.svg",
+	"img": "icons/magic/defensive/shield-barrier-flaming-pentagon-green.webp",
 	"effects": [],
 	"flags": {
 		"core": {
@@ -61,8 +61,9 @@
 				}
 			}
 		},
+		"concentration": false,
 		"featureType": "class",
 		"prerequisite": ""
 	},
-	"_id": "eajd6uqgfemjpso5"
+	"_id": "ogi9fjw244ni86aw"
 }

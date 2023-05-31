@@ -1,7 +1,7 @@
 {
 	"name": "Battle Hymn: Bastions of Justice",
 	"type": "feature",
-	"img": "icons/svg/item-bag.svg",
+	"img": "icons/magic/defensive/shield-barrier-glowing-triangle-purple-orange.webp",
 	"effects": [],
 	"flags": {
 		"core": {
@@ -61,6 +61,7 @@
 				}
 			}
 		},
+		"concentration": false,
 		"featureType": "class",
 		"prerequisite": ""
 	},

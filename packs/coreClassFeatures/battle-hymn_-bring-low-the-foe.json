@@ -1,7 +1,7 @@
 {
 	"name": "Battle Hymn: Bring Low the Foe",
 	"type": "feature",
-	"img": "icons/svg/item-bag.svg",
+	"img": "icons/magic/control/fear-fright-shadow-monster-red.webp",
 	"effects": [],
 	"flags": {
 		"core": {
@@ -61,6 +61,7 @@
 				}
 			}
 		},
+		"concentration": false,
 		"featureType": "class",
 		"prerequisite": ""
 	},

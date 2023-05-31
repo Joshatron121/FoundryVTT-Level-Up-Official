@@ -1,7 +1,7 @@
 {
 	"name": "Balance in All Things (Healer)",
 	"type": "feature",
-	"img": "icons/svg/item-bag.svg",
+	"img": "icons/skills/social/trading-justice-scale-yellow.webp",
 	"system": {
 		"actions": {
 			"N4jU4QD5BJUYMbjC": {
@@ -55,6 +55,7 @@
 				}
 			}
 		},
+		"concentration": false,
 		"featureType": "class",
 		"prerequisite": ""
 	},
@@ -64,5 +65,5 @@
 			"sourceId": "Compendium.a5e.a5e-class-features.wg325tft9znkrku7"
 		}
 	},
-	"_id": "vh8yjlnjit7wcdpu"
+	"_id": "wg325tft9znkrku7"
 }

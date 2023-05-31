@@ -1,7 +1,7 @@
 {
 	"name": "Battle Hymn: Harmony of Pain",
 	"type": "feature",
-	"img": "icons/svg/item-bag.svg",
+	"img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
 	"effects": [],
 	"flags": {
 		"core": {
@@ -69,6 +69,7 @@
 				}
 			}
 		},
+		"concentration": false,
 		"featureType": "class",
 		"prerequisite": ""
 	},

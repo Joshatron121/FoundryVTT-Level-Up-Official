@@ -1,7 +1,7 @@
 {
 	"name": "Battle Hymn: Onward to Battle",
 	"type": "feature",
-	"img": "icons/svg/item-bag.svg",
+	"img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
 	"effects": [],
 	"flags": {
 		"core": {
@@ -61,6 +61,7 @@
 				}
 			}
 		},
+		"concentration": false,
 		"featureType": "class",
 		"prerequisite": ""
 	},

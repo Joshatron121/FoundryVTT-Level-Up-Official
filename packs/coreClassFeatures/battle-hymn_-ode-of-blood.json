@@ -1,7 +1,7 @@
 {
 	"name": "Battle Hymn: Ode of Blood",
 	"type": "feature",
-	"img": "icons/svg/item-bag.svg",
+	"img": "icons/magic/death/hand-dirt-undead-zombie.webp",
 	"effects": [],
 	"flags": {
 		"core": {
@@ -61,6 +61,7 @@
 				}
 			}
 		},
+		"concentration": false,
 		"featureType": "class",
 		"prerequisite": ""
 	},
