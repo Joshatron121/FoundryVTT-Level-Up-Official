@@ -1,0 +1,56 @@
+{
+  "name": "Ruin Explorer: Trained Eyes",
+  "type": "feature",
+  "img": "icons/environment/wilderness/altar-hidden.webp",
+  "system": {
+    "actions": {},
+    "description": "<p>You gain darkvision out to a range of 30 feet, or if you already have it, the range of your darkvision increases by 30 feet.<br>Additionally, you gain an expertise die to perceive, detect and locate traps.</p>",
+    "favorite": false,
+    "secretDescription": "",
+    "source": {
+      "name": "The Ruin Strider",
+      "link": "https://ravine.itch.io/a5e-subclass02-ruin-strider",
+      "publisher": "ravine"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recharge": {
+        "formula": "1d6",
+        "threshold": "6"
+      }
+    },
+    "schema": {
+      "version": null,
+      "lastMigration": null
+    },
+    "concentration": false,
+    "featureType": "class",
+    "prerequisite": "Level 7 Ranger Ruin Strider archetype"
+  },
+  "effects": [],
+  "flags": {
+    "cf": {
+      "id": "temp_z8kdjrqsdhp",
+      "path": "Ravine Archetypes#/CF_SEP/Ruin Strider",
+      "color": "#000000"
+    },
+    "core": {},
+    "exportSource": {
+      "world": "lu-v10-2",
+      "system": "a5e",
+      "coreVersion": "11.299",
+      "systemVersion": "0.11.10"
+    }
+  },
+  "_stats": {
+    "systemId": "a5e",
+    "systemVersion": "0.11.10",
+    "coreVersion": "11.299",
+    "createdTime": 1684904246836,
+    "modifiedTime": 1685496794442,
+    "lastModifiedBy": "le58SSlnEwEDaewK"
+  },
+  "folder": "uby6e3FteAutfsAM"
+}

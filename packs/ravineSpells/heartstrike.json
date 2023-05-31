@@ -1,0 +1,89 @@
+{
+	"name": "Heartstrike",
+	"type": "spell",
+	"img": "icons/skills/wounds/injury-pain-body-orange.webp",
+	"system": {
+		"actions": {
+			"gQhuC7h1w94Z98NV": {
+				"name": "Heartstrike",
+				"activation": {
+					"type": "bonusAction",
+					"cost": 1
+				},
+				"consumers": {
+					"3t0q3uxmMMjgs5En": {
+						"type": "spell",
+						"default": true,
+						"mode": "variable",
+						"spellLevel": 2,
+						"points": 3
+					}
+				},
+				"rolls": {},
+				"prompts": {},
+				"uses": {
+					"value": 0,
+					"max": "",
+					"per": "",
+					"recharge": {
+						"formula": "1d6",
+						"threshold": 6
+					}
+				},
+				"duration": {
+					"unit": "instantaneous"
+				},
+				"ranges": {
+					"uDGeE1gyd9q9dRDi": {
+						"range": "self"
+					}
+				}
+			}
+		},
+		"description": "<p>The spirits of ancient archers carry your missiles straight to their targets. You have advantage on ranged weapon attacks until the start of your next turn, and you can ignore penalties for your enemies having half cover or three-quarters cover, and for an area being lightly obscured, when making those attacks.</p>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "The Errant Seer",
+			"link": "https://ravine.itch.io/a5e-subclass03-errant-seer",
+			"publisher": "ravine"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": null,
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"components": {
+			"vocalized": true,
+			"seen": true,
+			"material": true
+		},
+		"concentration": false,
+		"level": 2,
+		"materials": "an arrow, bolt, or other missile",
+		"materialsConsumed": false,
+		"prepared": false,
+		"prerequisite": "",
+		"ritual": false,
+		"schools": {
+			"primary": "divination",
+			"secondary": [
+				"attack",
+				"enhancement",
+				"weaponry"
+			]
+		}
+	},
+	"effects": [],
+	"flags": {},
+	"folder": null,
+	"_id": "mw6032ifrakcfbbo"
+}

@@ -280,6 +280,7 @@
         width: auto;
         flex-shrink: 0;
         cursor: pointer;
+        border-radius: 3px;
 
         :hover {
             transform: scale(1.2);

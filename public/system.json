@@ -194,6 +194,20 @@
       "system": "a5e"
     },
     {
+      "name": "a5e-ravine-class-features",
+      "label": "Ravine Class Features",
+      "path": "packs/ravineClassFeatures.db",
+      "type": "Item",
+      "system": "a5e"
+    },
+    {
+      "name": "a5e-ravine-spells",
+      "label": "Ravine Spells",
+      "path": "packs/ravineSpells.db",
+      "type": "Item",
+      "system": "a5e"
+    },
+    {
       "name": "a5e-rtbg-class-features",
       "label": "RtBG Class Features",
       "path": "packs/rtbgClassFeatures.db",
@@ -238,25 +252,17 @@
         "a5e-core-adventuring-gear",
         "a5e-core-magic-items",
         "a5e-core-maneuvers",
-        "a5e-core-spells"
-      ],
-      "folders": [
-        {
-          "name": "Player Options",
-          "sorting": "m",
-          "packs": [
-            "a5e-core-backgrounds",
-            "a5e-core-cultures",
-            "a5e-core-destinies",
-            "a5e-core-feats",
-            "a5e-core-background-features",
-            "a5e-core-class-features",
-            "a5e-core-culture-features",
-            "a5e-core-destiny-features",
-            "a5e-core-heritage-features",
-            "a5e-core-paragon-gifts"
-          ]
-        }
+        "a5e-core-spells",
+        "a5e-core-backgrounds",
+        "a5e-core-cultures",
+        "a5e-core-destinies",
+        "a5e-core-feats",
+        "a5e-core-background-features",
+        "a5e-core-class-features",
+        "a5e-core-culture-features",
+        "a5e-core-destiny-features",
+        "a5e-core-heritage-features",
+        "a5e-core-paragon-gifts"
       ]
     },
     {
@@ -266,38 +272,22 @@
         "a5e-pmg-adventuring-gear",
         "a5e-pmg-magic-items",
         "a5e-pmg-maneuvers",
-        "a5e-pmg-spells"
-      ],
-      "folders": [
-        {
-          "name": "Player Options",
-          "sorting": "m",
-          "packs": [
-            "a5e-pmg-backgrounds",
-            "a5e-pmg-feats",
-            "a5e-pmg-background-features",
-            "a5e-pmg-class-features"
-          ]
-        }
+        "a5e-pmg-spells",
+        "a5e-pmg-backgrounds",
+        "a5e-pmg-feats",
+        "a5e-pmg-background-features",
+        "a5e-pmg-class-features"
       ]
     },
     {
       "name": "Roll them Bones Gaming",
       "sorting": "m",
       "packs": [
-        "a5e-rtbg-spells"
-      ],
-      "folders": [
-        {
-          "name": "Player Options",
-          "sorting": "m",
-          "packs": [
-            "a5e-rtbg-destinies",
-            "a5e-rtbg-feats",
-            "a5e-rtbg-class-features",
-            "a5e-rtbg-destiny-features"
-          ]
-        }
+        "a5e-rtbg-spells",
+        "a5e-rtbg-destinies",
+        "a5e-rtbg-feats",
+        "a5e-rtbg-class-features",
+        "a5e-rtbg-destiny-features"
       ]
     }
   ],

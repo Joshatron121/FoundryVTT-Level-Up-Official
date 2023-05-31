@@ -1,0 +1,88 @@
+{
+	"name": "Guiding Star",
+	"type": "spell",
+	"img": "icons/magic/symbols/star-rising-purple.webp",
+	"system": {
+		"actions": {
+			"stzKGI0U5Up85vNd": {
+				"name": "Guiding Star",
+				"activation": {
+					"type": "minute",
+					"cost": 10
+				},
+				"consumers": {
+					"2EIb06ZjO8FP1m3n": {
+						"type": "spell",
+						"default": true,
+						"mode": "variable",
+						"spellLevel": 1,
+						"points": 2
+					}
+				},
+				"rolls": {},
+				"prompts": {},
+				"uses": {
+					"value": 0,
+					"max": "",
+					"per": "",
+					"recharge": {
+						"formula": "1d6",
+						"threshold": 6
+					}
+				},
+				"duration": {
+					"unit": "hour",
+					"value": 8
+				},
+				"ranges": {
+					"JpnUUfJDt7FzKR0h": {
+						"range": "self"
+					}
+				}
+			}
+		},
+		"description": "<p>By observing the stars or the position of the sun, you are able to determine the cardinal directions, as well as the direction and distance to a stated destination. You can't become disoriented or lose track of the destination. The spell doesn't, however, reveal the best route to your destination or warn you about deep gorges, flooded rivers, or other impassable or treacherous terrain.</p>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "The Errant Seer",
+			"link": "https://ravine.itch.io/a5e-subclass03-errant-seer",
+			"publisher": "ravine"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": null,
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"components": {
+			"vocalized": true,
+			"seen": true,
+			"material": false
+		},
+		"concentration": false,
+		"level": 1,
+		"materials": "",
+		"materialsConsumed": false,
+		"prepared": false,
+		"prerequisite": "",
+		"ritual": false,
+		"schools": {
+			"primary": "divination",
+			"secondary": [
+				"nature"
+			]
+		}
+	},
+	"effects": [],
+	"flags": {},
+	"folder": null,
+	"_id": "lep2fbszi2rkm14r"
+}

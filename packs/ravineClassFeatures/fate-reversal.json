@@ -1,0 +1,77 @@
+{
+  "name": "Fate Reversal",
+  "type": "feature",
+  "img": "icons/magic/symbols/clover-luck-white-green.webp",
+  "system": {
+    "actions": {
+      "nATGOcnk9dpxlNZ1": {
+        "name": "Fate Reversal",
+        "activation": {},
+        "consumers": {},
+        "rolls": {
+          "eX5f8sFNwPrXCNlW": {
+            "type": "generic",
+            "default": true,
+            "formula": "3d6"
+          }
+        },
+        "prompts": {},
+        "uses": {
+          "value": 1,
+          "max": "",
+          "per": "shortRest",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        }
+      }
+    },
+    "description": "<p>When you take damage, you can use your reaction to exploit chaos to protect yourself.</p>\n<p>Roll 3d6 and check the individual values of the dice on the following table:</p>\n<table style=\"width: 100%; height: 67.1876px;\" border=\"1\"><colgroup><col style=\"width: 21.1548%;\"><col style=\"width: 78.8452%;\"></colgroup>\n<thead>\n<tr style=\"height: 16.7969px;\">\n<td style=\"text-align: center; height: 16.7969px;\"><strong>3d6 Result</strong></td>\n<td style=\"height: 16.7969px;\"><strong>Effect</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height: 16.7969px;\">\n<td style=\"text-align: center; height: 16.7969px;\">Distinct Values</td>\n<td style=\"height: 16.7969px;\">You reduce the amount of damage by the result of the highest dice, plus your spellcasting modifier (minimum 1).</td>\n</tr>\n<tr style=\"height: 16.7969px;\">\n<td style=\"text-align: center; height: 16.7969px;\">2 of a Kind</td>\n<td style=\"height: 16.7969px;\">You take half damage, and your assailant takes the other half of the damage.</td>\n</tr>\n<tr style=\"height: 16.7969px;\">\n<td style=\"text-align: center; height: 16.7969px;\">3 of a Kind</td>\n<td style=\"height: 16.7969px;\">Your assailant takes that damage instead, and you take no damage.</td>\n</tr>\n</tbody>\n</table>\n<p>Additionally, you gain temporary hit points equals to the highest die. Those temporary hit points last for 1 minute.</p>\n<p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>",
+    "favorite": false,
+    "secretDescription": "",
+    "source": {
+      "name": "Agent of the Magus",
+      "link": "https://ravine.itch.io/a5e-subclass01-magus",
+      "publisher": "ravine"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recharge": {
+        "formula": "1d6",
+        "threshold": "6"
+      }
+    },
+    "schema": {
+      "version": null,
+      "lastMigration": null
+    },
+    "concentration": false,
+    "featureType": "class",
+    "prerequisite": "Level 10 Warlock Agent of the Magus"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_3zije0ettbp"
+    },
+    "exportSource": {
+      "world": "lu-v10-2",
+      "system": "a5e",
+      "coreVersion": "11.299",
+      "systemVersion": "0.11.10"
+    }
+  },
+  "_stats": {
+    "systemId": "a5e",
+    "systemVersion": "0.11.10",
+    "coreVersion": "11.299",
+    "createdTime": 1685235377912,
+    "modifiedTime": 1685496468369,
+    "lastModifiedBy": "le58SSlnEwEDaewK"
+  },
+  "folder": "uby6e3FteAutfsAM"
+}

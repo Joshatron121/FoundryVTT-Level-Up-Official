@@ -1,0 +1,54 @@
+{
+  "name": "Tricks of the Trade",
+  "type": "feature",
+  "img": "icons/sundries/gaming/rune-card.webp",
+  "system": {
+    "actions": {},
+    "description": "<p>You learn the <em>D</em><em>isrupting Thoughts</em>&nbsp;and @UUID[Compendium.a5e.a5e-spells.4oruofw2q7gso9hq]{Minor Illusion}&nbsp;cantrips. They count as warlock cantrips for you, but they don't count against your number of cantrips known.<br>Additionally, you gain proficiency in the <em>Sleight of Hand</em> skill, or an expertise die if you were already proficient.</p>",
+    "favorite": false,
+    "secretDescription": "",
+    "source": {
+      "name": "Agent of the Magus",
+      "link": "https://ravine.itch.io/a5e-subclass01-magus",
+      "publisher": "ravine"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recharge": {
+        "formula": "1d6",
+        "threshold": "6"
+      }
+    },
+    "schema": {
+      "version": null,
+      "lastMigration": null
+    },
+    "concentration": false,
+    "featureType": "class",
+    "prerequisite": "Level 1 Warlock Agent of the Magus"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_3zije0ettbp"
+    },
+    "exportSource": {
+      "world": "lu-v10-2",
+      "system": "a5e",
+      "coreVersion": "11.299",
+      "systemVersion": "0.11.10"
+    }
+  },
+  "_stats": {
+    "systemId": "a5e",
+    "systemVersion": "0.11.10",
+    "coreVersion": "11.299",
+    "createdTime": 1685235356958,
+    "modifiedTime": 1685496468369,
+    "lastModifiedBy": "le58SSlnEwEDaewK"
+  },
+  "folder": "uby6e3FteAutfsAM"
+}

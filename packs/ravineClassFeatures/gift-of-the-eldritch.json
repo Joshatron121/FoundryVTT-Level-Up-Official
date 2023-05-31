@@ -1,0 +1,130 @@
+{
+  "name": "Gift of the Eldritch",
+  "type": "feature",
+  "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
+  "system": {
+    "actions": {
+      "ILraHQfgMZkEin4P": {
+        "name": "Black Tentacles",
+        "activation": {
+          "cost": 1,
+          "type": "action",
+          "reactionTrigger": ""
+        },
+        "consumers": {
+          "CZE4mGt4EZXfNzWb": {
+            "mode": "slotsOnly",
+            "spellLevel": 4,
+            "points": 6,
+            "type": "spell"
+          }
+        },
+        "rolls": {
+          "kmPkIq4Ir4IWJ3ZU": {
+            "canCrit": false,
+            "damageType": "bludgeoning",
+            "formula": "3d6",
+            "name": "",
+            "type": "damage",
+            "scaling": {
+              "mode": "spellLevel",
+              "formula": "1d6",
+              "step": 2
+            }
+          }
+        },
+        "prompts": {
+          "T9VFB4CcJ122hbCi": {
+            "ability": "dex",
+            "onSave": "",
+            "saveDC": {
+              "type": "spellcasting",
+              "bonus": ""
+            },
+            "type": "savingThrow"
+          }
+        },
+        "uses": {
+          "value": 1,
+          "max": "",
+          "per": "longRest",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "duration": {
+          "unit": "minute",
+          "value": "1"
+        },
+        "ranges": {
+          "XB4OYpN1KliFWkhX": {
+            "range": "medium"
+          }
+        },
+        "area": {
+          "shape": "cube",
+          "width": "20",
+          "placeTemplate": false
+        },
+        "target": {
+          "quantity": "",
+          "type": ""
+        },
+        "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
+        "description": "<p>Writhing black tentacles fill the ground within the area turning it into difficult terrain. When a creature starts its turn in the area or enters the area for the first time on its turn, it takes 3d6 bludgeoning damage and is restrained by the tentacles unless it succeeds on a Dexterity saving throw. A creature that starts its turn restrained by the tentacles takes 3d6 bludgeoning damage.</p>\n<p>A restrained creature can use its action to make an Acrobatics or Athletics check against the spell save DC, freeing itself on a success.</p>\n<p><strong><em>Cast at Higher Levels.</em></strong> The damage increases by 1d6 for every 2 slot levels above 4th.</p>",
+        "descriptionOutputs": [
+          "action"
+        ]
+      }
+    },
+    "description": "<p>You can innately cast @UUID[Compendium.a5e.a5e-spells.67ex7mn5kkutvnqn]{Black Tentacles}&nbsp;at 4th level, requiring no component. You cannot use spell points to cast Black Tentacles.</p>\n<p>Once you cast this spell using this feature, you can&rsquo;t use it again until you finish a long rest.</p>",
+    "favorite": false,
+    "secretDescription": "",
+    "source": {
+      "name": "The Ruin Strider",
+      "link": "https://ravine.itch.io/a5e-subclass02-ruin-strider",
+      "publisher": "ravine"
+    },
+    "uses": {
+      "value": 1,
+      "max": "",
+      "per": "longRest",
+      "recharge": {
+        "formula": "1d6",
+        "threshold": "6"
+      }
+    },
+    "schema": {
+      "version": null,
+      "lastMigration": null
+    },
+    "concentration": false,
+    "featureType": "class",
+    "prerequisite": "Level 15 Ranger Ruin Strider archetype"
+  },
+  "effects": [],
+  "flags": {
+    "cf": {
+      "id": "temp_z8kdjrqsdhp",
+      "path": "Ravine Archetypes#/CF_SEP/Ruin Strider",
+      "color": "#000000"
+    },
+    "core": {},
+    "exportSource": {
+      "world": "lu-v10-2",
+      "system": "a5e",
+      "coreVersion": "11.299",
+      "systemVersion": "0.11.10"
+    }
+  },
+  "_stats": {
+    "systemId": "a5e",
+    "systemVersion": "0.11.10",
+    "coreVersion": "11.299",
+    "createdTime": 1684905741311,
+    "modifiedTime": 1685496794442,
+    "lastModifiedBy": "le58SSlnEwEDaewK"
+  },
+  "folder": "uby6e3FteAutfsAM"
+}

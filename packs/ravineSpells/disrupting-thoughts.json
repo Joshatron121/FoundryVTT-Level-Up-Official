@@ -1,0 +1,97 @@
+{
+	"name": "Disrupting Thoughts",
+	"type": "spell",
+	"img": "icons/magic/control/fear-fright-white.webp",
+	"system": {
+		"actions": {
+			"TNWvZFB4t66KsGk5": {
+				"name": "Disrupting Thoughts",
+				"activation": {
+					"type": "action",
+					"cost": 1
+				},
+				"consumers": {},
+				"rolls": {
+					"XDGlDSHWAv1QBMmn": {
+						"type": "damage",
+						"default": true,
+						"label": "Disrupting Thoughts",
+						"formula": "1d4",
+						"scaling": {
+							"mode": "cantrip",
+							"formula": "1d4"
+						},
+						"damageType": "psychic"
+					}
+				},
+				"prompts": {},
+				"uses": {
+					"value": 0,
+					"max": "",
+					"per": "",
+					"recharge": {
+						"formula": "1d6",
+						"threshold": 6
+					}
+				},
+				"duration": {
+					"unit": "instantaneous"
+				},
+				"ranges": {
+					"3qUwcBtTDJJXQBKo": {
+						"range": "medium"
+					}
+				},
+				"target": {
+					"type": "creature",
+					"quantity": 1
+				}
+			}
+		},
+		"description": "<p>You fill the mind of one creature you can see within range with parasitic psychic energy.</p>\n<p>The target must succeed on an Intelligence saving throw or take 1d4 <em>psychic</em> damage. Additionally, it has disadvantage on the next saving throw it makes before the end of your next turn.</p>\n<p>This spell's damage increases by 1d4 when you reach certain levels: 5th level (2d4), 11th level (3d4), and 17th level (4d4).</p>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "Agent of the Magus",
+			"link": "https://ravine.itch.io/a5e-subclass01-magus",
+			"publisher": "ravine"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": null,
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"components": {
+			"vocalized": true,
+			"seen": false,
+			"material": false
+		},
+		"concentration": false,
+		"level": 0,
+		"materials": "",
+		"materialsConsumed": false,
+		"prepared": false,
+		"prerequisite": "",
+		"ritual": false,
+		"schools": {
+			"primary": "enchantment",
+			"secondary": [
+				"arcane",
+				"attack",
+				"psychic"
+			]
+		}
+	},
+	"effects": [],
+	"flags": {},
+	"folder": null,
+	"_id": "zkmr283pqhbcznpo"
+}

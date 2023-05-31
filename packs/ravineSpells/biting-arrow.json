@@ -1,0 +1,104 @@
+{
+  "name": "Biting Arrow",
+  "type": "spell",
+  "img": "icons/skills/ranged/arrows-flying-salvo-blue-light.webp",
+  "system": {
+    "actions": {
+      "rwi5sKgp8QIr3Qpu": {
+        "name": "Biting Arrow",
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "consumers": {},
+        "rolls": {
+          "l1wOKfF3SbM1qIAS": {
+            "type": "damage",
+            "default": false,
+            "label": "Biting Arrow",
+            "scaling": {
+              "mode": "cantrip",
+              "formula": "1d6"
+            },
+            "formula": "1d6",
+            "damageType": "cold"
+          }
+        },
+        "prompts": {},
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "duration": {
+          "unit": "round",
+          "value": 1
+        },
+        "ranges": {
+          "ShdYu1u4VLPmWSPN": {
+            "range": "self"
+          },
+          "Ech0kd4s5998nzxt": {
+            "range": "long"
+          }
+        },
+        "target": {
+          "type": "creature",
+          "quantity": 1,
+          "scaling": {
+            "mode": null
+          }
+        }
+      }
+    },
+    "description": "<p>As part of the action used to cast this spell, you make a ranged weapon attack with a bow, a crossbow, or a thrown weapon. The effect is limited to a range of 120 feet despite the weapon&rsquo;s range, and the attack is made with disadvantage if the target is in the weapon&rsquo;s long range.<br>If the weapon attack hits, it deals damage as usual. In addition, the target becomes coated in thin frost until the start of your next turn. If the target uses its reaction before the start of your next turn, it immediately takes 1d6 cold damage and the spell ends.</p>\n<p>The spell&rsquo;s damage, for both the ranged attack and the cold damage, increases by 1d6 when you reach 5th level (+1d6 and 2d6), 11th level (+2d6 and 3d6), and 17th level (+3d6 and 4d6).</p>",
+    "favorite": false,
+    "secretDescription": "",
+    "source": {
+      "name": "The Errant Seer",
+      "link": "https://ravine.itch.io/a5e-subclass03-errant-seer",
+      "publisher": "ravine"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recharge": {
+        "formula": "1d6",
+        "threshold": "6"
+      }
+    },
+    "schema": {
+      "version": null,
+      "lastMigration": null
+    },
+    "components": {
+      "vocalized": true,
+      "seen": false,
+      "material": true
+    },
+    "concentration": false,
+    "level": 0,
+    "materials": "the ammunition of a one or two handed ranged weapon, or a thrown weapon",
+    "materialsConsumed": false,
+    "prepared": false,
+    "prerequisite": "",
+    "ritual": false,
+    "schools": {
+      "primary": "evocation",
+      "secondary": [
+        "attack",
+        "cold",
+        "weaponry"
+      ]
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "_id": "5g18jp6jt3p491yf"
+}

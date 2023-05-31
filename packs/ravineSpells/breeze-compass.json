@@ -1,0 +1,98 @@
+{
+	"name": "Breeze Compass",
+	"type": "spell",
+	"img": "icons/magic/control/debuff-energy-snare-purple-blue.webp",
+	"system": {
+		"actions": {
+			"vJJLhgfKfY49bW3B": {
+				"name": "Breeze Compass",
+				"activation": {
+					"type": "action",
+					"cost": 1
+				},
+				"consumers": {
+					"60TRhA4e8Xp00c1N": {
+						"type": "spell",
+						"default": true,
+						"mode": "variable",
+						"spellLevel": 3,
+						"points": 5
+					}
+				},
+				"rolls": {},
+				"prompts": {
+					"apLTwtap6WWNvVH5": {
+						"type": "skillCheck",
+						"default": false,
+						"skill": "arc",
+						"ability": "int",
+						"label": "Decision Point"
+					}
+				},
+				"uses": {
+					"value": 0,
+					"max": "",
+					"per": "",
+					"recharge": {
+						"formula": "1d6",
+						"threshold": 6
+					}
+				},
+				"duration": {
+					"unit": "hour",
+					"value": 1
+				},
+				"ranges": {
+					"56u2RZxV8SQiE6zK": {
+						"range": "self"
+					}
+				}
+			}
+		},
+		"description": "<p>When you cast this spell, you must clearly imagine or mentally describe a location. It doesn't need to be a location you've been to as long as you know it exists on the Material Plane. Within moments, a gentle breeze arises and blows along the most efficient path toward that destination. Only you can sense this breeze, and whenever it brings you to a decision point (a fork in a passageway, for example), you must make a successful DC 8 Intelligence (Arcana) check to deduce which way the breeze indicates you should go.</p>\n<p>On a failed check, the spell ends. The breeze guides you around cliffs, lava pools, and other natural obstacles, but it doesn't avoid enemies or hostile creatures.</p>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "The Errant Seer",
+			"link": "https://ravine.itch.io/a5e-subclass03-errant-seer",
+			"publisher": "ravine"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": null,
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"components": {
+			"vocalized": true,
+			"seen": true,
+			"material": true
+		},
+		"concentration": true,
+		"level": 3,
+		"materials": "a magnetized needle",
+		"materialsConsumed": false,
+		"prepared": false,
+		"prerequisite": "",
+		"ritual": false,
+		"schools": {
+			"primary": "divination",
+			"secondary": [
+				"air",
+				"nature",
+				"terrain"
+			]
+		}
+	},
+	"effects": [],
+	"flags": {},
+	"folder": null,
+	"_id": "mohm34r5gfsh6wid"
+}

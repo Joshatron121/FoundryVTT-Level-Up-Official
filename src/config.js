@@ -605,7 +605,7 @@ A5E.publishers = {
   },
   ravine: {
     name: 'Ravine',
-    logo: 'icons/svg/book.svg'
+    logo: 'icons/commodities/materials/feather-black-blue.webp'
   },
   rollThemBones: {
     name: 'Roll them Bones Gaming',
