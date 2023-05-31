@@ -1,54 +1,36 @@
 {
-  "name": "Misdirection",
-  "type": "feature",
-  "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
-  "system": {
-    "actions": {},
-    "description": "<p>Your patron has granted you a sliver of their power to keep you out of harm's way.</p>\n<p>You are considered under the protection of a specific version of the @UUID[Compendium.a5e.a5e-spells.fujxumfdi1t6zh9p]{Contingency} spell. You don't need to provide the material components for either the contingency spell or the spell cast by contingency.</p>\n<p>After a long rest, you can set the trigger of the contingency (and inform your Narrator). When you do so, you cannot change the trigger until you finish 1d4 long rests.</p>\n<p>The contingency spell protecting you can only cast one of the following spells at 5th level: @UUID[Compendium.a5e.a5e-spells.f0lq2ogke9k8f1v9]{Mislead}, @UUID[Compendium.a5e.a5e-spells.0cdtrkihoe9jdon1]{Greater Invisibility}, @UUID[Compendium.a5e.a5e-spells.6y4rq48okutkormg]{Phantasmal Killer} or @UUID[Compendium.a5e.a5e-spells.pdvg7c9emjgnib07]{Confusion}.</p>\n<p>You don't need to know the spell for it to be cast as part of contingency's effect. You can choose which spell is cast when contingency triggers.</p>\n<p>Once contingency has been triggered, this feature cannot be used again before you finish 2d4 long rests.</p>",
-    "favorite": false,
-    "secretDescription": "",
-    "source": {
-      "name": "Agent of the Magus",
-      "link": "https://ravine.itch.io/a5e-subclass01-magus",
-      "publisher": "ravine"
-    },
-    "uses": {
-      "value": null,
-      "max": "",
-      "per": "",
-      "recharge": {
-        "formula": "1d6",
-        "threshold": "6"
-      }
-    },
-    "schema": {
-      "version": null,
-      "lastMigration": null
-    },
-    "concentration": false,
-    "featureType": "class",
-    "prerequisite": "Level 14 Warlock Agent of the Magus"
-  },
-  "effects": [],
-  "flags": {
-    "core": {},
-    "cf": {
-      "id": "temp_3zije0ettbp"
-    },
-    "exportSource": {
-      "world": "lu-v10-2",
-      "system": "a5e",
-      "coreVersion": "11.299",
-      "systemVersion": "0.11.10"
-    }
-  },
-  "_stats": {
-    "systemId": "a5e",
-    "systemVersion": "0.11.10",
-    "coreVersion": "11.299",
-    "createdTime": 1685237567220,
-    "modifiedTime": 1685496468369,
-    "lastModifiedBy": "le58SSlnEwEDaewK"
-  },
-  "folder": "uby6e3FteAutfsAM"
+	"name": "Misdirection",
+	"type": "feature",
+	"img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+	"system": {
+		"actions": {},
+		"description": "<p>Your patron has granted you a sliver of their power to keep you out of harm's way.</p>\n<p>You are considered under the protection of a specific version of the @UUID[Compendium.a5e.a5e-spells.fujxumfdi1t6zh9p]{Contingency} spell. You don't need to provide the material components for either the contingency spell or the spell cast by contingency.</p>\n<p>After a long rest, you can set the trigger of the contingency (and inform your Narrator). When you do so, you cannot change the trigger until you finish 1d4 long rests.</p>\n<p>The contingency spell protecting you can only cast one of the following spells at 5th level: @UUID[Compendium.a5e.a5e-spells.f0lq2ogke9k8f1v9]{Mislead}, @UUID[Compendium.a5e.a5e-spells.0cdtrkihoe9jdon1]{Greater Invisibility}, @UUID[Compendium.a5e.a5e-spells.6y4rq48okutkormg]{Phantasmal Killer} or @UUID[Compendium.a5e.a5e-spells.pdvg7c9emjgnib07]{Confusion}.</p>\n<p>You don't need to know the spell for it to be cast as part of contingency's effect. You can choose which spell is cast when contingency triggers.</p>\n<p>Once contingency has been triggered, this feature cannot be used again before you finish 2d4 long rests.</p>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "Agent of the Magus",
+			"link": "https://ravine.itch.io/a5e-subclass01-magus",
+			"publisher": "ravine"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": "",
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"concentration": false,
+		"featureType": "class",
+		"prerequisite": "Level 14 Warlock Agent of the Magus"
+	},
+	"effects": [],
+	"flags": {},
+	"folder": "uby6e3FteAutfsAM",
+	"_id": "5vj95qyg7pmruj6e"
 }

@@ -1,80 +1,60 @@
 {
-  "name": "Alter Fate",
-  "type": "feature",
-  "img": "icons/sundries/gaming/dice-pair-white-green.webp",
-  "system": {
-    "actions": {
-      "VgIomq5p5oAczdE7": {
-        "name": "Alter Fate",
-        "activation": {
-          "type": "reaction",
-          "cost": 1,
-          "reactionTrigger": "when you take damage"
-        },
-        "consumers": {},
-        "rolls": {},
-        "prompts": {},
-        "uses": {
-          "value": 1,
-          "max": "ceil(@wis.mod, 1)",
-          "per": "longRest",
-          "recharge": {
-            "formula": "1d6",
-            "threshold": 6
-          }
-        },
-        "duration": {
-          "unit": "instantaneous"
-        }
-      }
-    },
-    "description": "<p>When you take damage, you can use your reaction to give yourself resistance to that damage until the end of your next turn.</p>\n<p>You can use this features a number of times equal to your Wisdom modifier (minimum 1), and you regain all expended uses when you finish a long rest.</p>",
-    "favorite": false,
-    "secretDescription": "",
-    "source": {
-      "name": "The Errant Seer",
-      "link": "https://ravine.itch.io/a5e-subclass03-errant-seer",
-      "publisher": "ravine"
-    },
-    "uses": {
-      "value": 0,
-      "max": "",
-      "per": "",
-      "recharge": {
-        "formula": "1d6",
-        "threshold": "6"
-      }
-    },
-    "schema": {
-      "version": null,
-      "lastMigration": null
-    },
-    "concentration": false,
-    "featureType": "class",
-    "prerequisite": "Level 15 Ranger Errant Seer archetype"
-  },
-  "effects": [],
-  "flags": {
-    "cf": {
-      "id": "temp_f3cdg5bw6w4",
-      "path": "Ravine Archetypes#/CF_SEP/Errant Seer",
-      "color": "#000000"
-    },
-    "core": {},
-    "exportSource": {
-      "world": "lu-v10-2",
-      "system": "a5e",
-      "coreVersion": "11.299",
-      "systemVersion": "0.11.10"
-    }
-  },
-  "_stats": {
-    "systemId": "a5e",
-    "systemVersion": "0.11.10",
-    "coreVersion": "11.299",
-    "createdTime": 1685225822325,
-    "modifiedTime": 1685496269460,
-    "lastModifiedBy": "le58SSlnEwEDaewK"
-  },
-  "folder": "uby6e3FteAutfsAM"
+	"name": "Alter Fate",
+	"type": "feature",
+	"img": "icons/sundries/gaming/dice-pair-white-green.webp",
+	"system": {
+		"actions": {
+			"VgIomq5p5oAczdE7": {
+				"name": "Alter Fate",
+				"activation": {
+					"type": "reaction",
+					"cost": 1,
+					"reactionTrigger": "when you take damage"
+				},
+				"consumers": {},
+				"rolls": {},
+				"prompts": {},
+				"uses": {
+					"value": 1,
+					"max": "ceil(@wis.mod, 1)",
+					"per": "longRest",
+					"recharge": {
+						"formula": "1d6",
+						"threshold": 6
+					}
+				},
+				"duration": {
+					"unit": "instantaneous"
+				}
+			}
+		},
+		"description": "<p>When you take damage, you can use your reaction to give yourself resistance to that damage until the end of your next turn.</p>\n<p>You can use this features a number of times equal to your Wisdom modifier (minimum 1), and you regain all expended uses when you finish a long rest.</p>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "The Errant Seer",
+			"link": "https://ravine.itch.io/a5e-subclass03-errant-seer",
+			"publisher": "ravine"
+		},
+		"uses": {
+			"value": 0,
+			"max": "",
+			"per": "",
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"concentration": false,
+		"featureType": "class",
+		"prerequisite": "Level 15 Ranger Errant Seer archetype"
+	},
+	"effects": [],
+	"flags": {},
+	"folder": "uby6e3FteAutfsAM",
+	"_id": "0k2hnx9rp4ol64ms"
 }

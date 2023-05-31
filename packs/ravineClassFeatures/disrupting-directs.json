@@ -1,56 +1,36 @@
 {
-  "name": "Disrupting Directs",
-  "type": "feature",
-  "img": "icons/skills/social/intimidation-impressing.webp",
-  "system": {
-    "actions": {},
-    "description": "<p>You learn additional combat maneuvers from the&nbsp;<em>Tempered Iron</em> tradition at 3rd, 6th, and 11th level. They do not count towards the maximum number of combat maneuvers you know.</p>\n<table style=\"width: 100%; border-width: 1px;\" border=\"1\"><colgroup><col style=\"width: 16.4881%;\"><col style=\"width: 55.229%;\"><col style=\"width: 28.2828%;\"></colgroup>\n<thead>\n<tr>\n<td style=\"text-align: center; border-width: 1px;\">Level</td>\n<td style=\"text-align: center; border-width: 1px;\">Maneuver</td>\n<td style=\"text-align: center; border-width: 1px;\">Degree</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align: center; border-width: 1px;\">3rd</td>\n<td style=\"text-align: center; border-width: 1px;\">@UUID[Compendium.a5e.a5e-maneuvers.e2k7hxnsl3sdrldt]{Purge Magic}</td>\n<td style=\"text-align: center; border-width: 1px;\">1st degree</td>\n</tr>\n<tr>\n<td style=\"text-align: center; border-width: 1px;\">6th</td>\n<td style=\"text-align: center; border-width: 1px;\">@UUID[Compendium.a5e.a5e-maneuvers.z9i2tn37nkn4gr7s]{Gaze Of Conviction}</td>\n<td style=\"text-align: center; border-width: 1px;\">2nd degree</td>\n</tr>\n<tr>\n<td style=\"text-align: center; border-width: 1px;\">11th</td>\n<td style=\"text-align: center; border-width: 1px;\">@UUID[Compendium.a5e.a5e-maneuvers.j3asisikt5lga4uj]{Dispelling Assault}</td>\n<td style=\"text-align: center; border-width: 1px;\">3rd degree</td>\n</tr>\n</tbody>\n</table>",
-    "favorite": false,
-    "secretDescription": "",
-    "source": {
-      "name": "The Spellbreaker",
-      "link": "https://ravine.itch.io/a5e-subclass04-spellbreaker",
-      "publisher": "ravine"
-    },
-    "uses": {
-      "value": null,
-      "max": "",
-      "per": null,
-      "recharge": {
-        "formula": "1d6",
-        "threshold": "6"
-      }
-    },
-    "schema": {
-      "version": null,
-      "lastMigration": null
-    },
-    "concentration": false,
-    "featureType": "class",
-    "prerequisite": "Level 3 Adept Spellbreaker archetype"
-  },
-  "effects": [],
-  "flags": {
-    "cf": {
-      "id": "temp_w89wfuneot",
-      "path": "Ravine Archetypes#/CF_SEP/Spellbreaker",
-      "color": "#000000"
-    },
-    "core": {},
-    "exportSource": {
-      "world": "lu-v10-2",
-      "system": "a5e",
-      "coreVersion": "11.299",
-      "systemVersion": "0.11.10"
-    }
-  },
-  "_stats": {
-    "systemId": "a5e",
-    "systemVersion": "0.11.10",
-    "coreVersion": "11.299",
-    "createdTime": 1682986400734,
-    "modifiedTime": 1685496974497,
-    "lastModifiedBy": "le58SSlnEwEDaewK"
-  },
-  "folder": "uby6e3FteAutfsAM"
+	"name": "Disrupting Directs",
+	"type": "feature",
+	"img": "icons/skills/social/intimidation-impressing.webp",
+	"system": {
+		"actions": {},
+		"description": "<p>You learn additional combat maneuvers from the&nbsp;<em>Tempered Iron</em> tradition at 3rd, 6th, and 11th level. They do not count towards the maximum number of combat maneuvers you know.</p>\n<table style=\"width: 100%; border-width: 1px;\" border=\"1\"><colgroup><col style=\"width: 16.4881%;\"><col style=\"width: 55.229%;\"><col style=\"width: 28.2828%;\"></colgroup>\n<thead>\n<tr>\n<td style=\"text-align: center; border-width: 1px;\">Level</td>\n<td style=\"text-align: center; border-width: 1px;\">Maneuver</td>\n<td style=\"text-align: center; border-width: 1px;\">Degree</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align: center; border-width: 1px;\">3rd</td>\n<td style=\"text-align: center; border-width: 1px;\">@UUID[Compendium.a5e.a5e-maneuvers.e2k7hxnsl3sdrldt]{Purge Magic}</td>\n<td style=\"text-align: center; border-width: 1px;\">1st degree</td>\n</tr>\n<tr>\n<td style=\"text-align: center; border-width: 1px;\">6th</td>\n<td style=\"text-align: center; border-width: 1px;\">@UUID[Compendium.a5e.a5e-maneuvers.z9i2tn37nkn4gr7s]{Gaze Of Conviction}</td>\n<td style=\"text-align: center; border-width: 1px;\">2nd degree</td>\n</tr>\n<tr>\n<td style=\"text-align: center; border-width: 1px;\">11th</td>\n<td style=\"text-align: center; border-width: 1px;\">@UUID[Compendium.a5e.a5e-maneuvers.j3asisikt5lga4uj]{Dispelling Assault}</td>\n<td style=\"text-align: center; border-width: 1px;\">3rd degree</td>\n</tr>\n</tbody>\n</table>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "The Spellbreaker",
+			"link": "https://ravine.itch.io/a5e-subclass04-spellbreaker",
+			"publisher": "ravine"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": null,
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"concentration": false,
+		"featureType": "class",
+		"prerequisite": "Level 3 Adept Spellbreaker archetype"
+	},
+	"effects": [],
+	"flags": {},
+	"folder": "uby6e3FteAutfsAM",
+	"_id": "7vvxh4cayu7i83sf"
 }

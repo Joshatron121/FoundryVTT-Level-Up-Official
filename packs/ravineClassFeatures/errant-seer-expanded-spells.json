@@ -1,56 +1,36 @@
 {
-  "name": "Errant Seer Expanded Spells",
-  "type": "feature",
-  "img": "icons/magic/nature/root-vine-fire-entangled-hand.webp",
-  "system": {
-    "actions": {},
-    "description": "<p>You learn additional spells when you reach certain levels in this class, as shown in the Errant Seer Spells table. The spells counts as ranger spells for you, but they do not count against the number of ranger spells you know.</p>\n<table style=\"width: 100%;\" border=\"1\"><colgroup><col style=\"width: 20.1109%;\"><col style=\"width: 79.8891%;\"></colgroup>\n<thead>\n<tr>\n<td style=\"text-align: center;\">Ranger Level</td>\n<td>Additional Spells Known</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align: center;\">3rd</td>\n<td>@UUID[Compendium.a5e.a5e-spells.kaye34nheyrit487]{Detect Magic}, @UUID[Compendium.a5e.a5e-spells.zzv2xb2kvvcyci4i]{Healing Word}</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">7th</td>\n<td>@UUID[Compendium.a5e.a5e-spells.qsa7b22n3y1pbzf6]{Augury}, <em>H</em><em>eartstrike</em></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">13th</td>\n<td>@UUID[Compendium.a5e.a5e-spells.usz7we3sepg9tv9d]{Clairvoyance}</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">19th</td>\n<td>@UUID[Compendium.a5e.a5e-spells.3zt20n8mf29x3eju]{Death Ward}</td>\n</tr>\n</tbody>\n</table>",
-    "favorite": false,
-    "secretDescription": "",
-    "source": {
-      "name": "The Errant Seer",
-      "link": "https://ravine.itch.io/a5e-subclass03-errant-seer",
-      "publisher": "ravine"
-    },
-    "uses": {
-      "value": null,
-      "max": "",
-      "per": null,
-      "recharge": {
-        "formula": "1d6",
-        "threshold": "6"
-      }
-    },
-    "schema": {
-      "version": null,
-      "lastMigration": null
-    },
-    "concentration": false,
-    "featureType": "",
-    "prerequisite": "Level 3 Ranger Errant Seer archetype"
-  },
-  "effects": [],
-  "flags": {
-    "cf": {
-      "id": "temp_f3cdg5bw6w4",
-      "path": "Ravine Archetypes#/CF_SEP/Errant Seer",
-      "color": "#000000"
-    },
-    "core": {},
-    "exportSource": {
-      "world": "lu-v10-2",
-      "system": "a5e",
-      "coreVersion": "11.299",
-      "systemVersion": "0.11.10"
-    }
-  },
-  "_stats": {
-    "systemId": "a5e",
-    "systemVersion": "0.11.10",
-    "coreVersion": "11.299",
-    "createdTime": 1685091737068,
-    "modifiedTime": 1685496269460,
-    "lastModifiedBy": "le58SSlnEwEDaewK"
-  },
-  "folder": "uby6e3FteAutfsAM"
+	"name": "Errant Seer Expanded Spells",
+	"type": "feature",
+	"img": "icons/magic/nature/root-vine-fire-entangled-hand.webp",
+	"system": {
+		"actions": {},
+		"description": "<p>You learn additional spells when you reach certain levels in this class, as shown in the Errant Seer Spells table. The spells counts as ranger spells for you, but they do not count against the number of ranger spells you know.</p>\n<table style=\"width: 100%;\" border=\"1\"><colgroup><col style=\"width: 20.1109%;\"><col style=\"width: 79.8891%;\"></colgroup>\n<thead>\n<tr>\n<td style=\"text-align: center;\">Ranger Level</td>\n<td>Additional Spells Known</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align: center;\">3rd</td>\n<td>@UUID[Compendium.a5e.a5e-spells.kaye34nheyrit487]{Detect Magic}, @UUID[Compendium.a5e.a5e-spells.zzv2xb2kvvcyci4i]{Healing Word}</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">7th</td>\n<td>@UUID[Compendium.a5e.a5e-spells.qsa7b22n3y1pbzf6]{Augury}, <em>H</em><em>eartstrike</em></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">13th</td>\n<td>@UUID[Compendium.a5e.a5e-spells.usz7we3sepg9tv9d]{Clairvoyance}</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">19th</td>\n<td>@UUID[Compendium.a5e.a5e-spells.3zt20n8mf29x3eju]{Death Ward}</td>\n</tr>\n</tbody>\n</table>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "The Errant Seer",
+			"link": "https://ravine.itch.io/a5e-subclass03-errant-seer",
+			"publisher": "ravine"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": null,
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"concentration": false,
+		"featureType": "",
+		"prerequisite": "Level 3 Ranger Errant Seer archetype"
+	},
+	"effects": [],
+	"flags": {},
+	"folder": "uby6e3FteAutfsAM",
+	"_id": "0qfq6ulqcwkbq57n"
 }

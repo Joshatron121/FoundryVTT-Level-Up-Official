@@ -1,56 +1,36 @@
 {
-  "name": "Unweaving Uppercut",
-  "type": "feature",
-  "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
-  "system": {
-    "actions": {},
-    "description": "<p>When you roll a 1 on your martial arts die to determine damage against a creature that is casting a spell or is maintaining concentration on a spell or magic effect, you can reroll the die and must use the new roll.</p>\n<p>Beginning at 16th level, you can use this feature when you roll a 1 or a 2 on your martial arts die.</p>",
-    "favorite": false,
-    "secretDescription": "",
-    "source": {
-      "name": "The Spellbreaker",
-      "link": "https://ravine.itch.io/a5e-subclass04-spellbreaker",
-      "publisher": "ravine"
-    },
-    "uses": {
-      "value": null,
-      "max": "",
-      "per": null,
-      "recharge": {
-        "formula": "1d6",
-        "threshold": "6"
-      }
-    },
-    "schema": {
-      "version": null,
-      "lastMigration": null
-    },
-    "concentration": false,
-    "featureType": "class",
-    "prerequisite": "Level 11 Adept Spellbreaker archetype"
-  },
-  "effects": [],
-  "flags": {
-    "cf": {
-      "id": "temp_w89wfuneot",
-      "path": "Ravine Archetypes#/CF_SEP/Spellbreaker",
-      "color": "#000000"
-    },
-    "core": {},
-    "exportSource": {
-      "world": "lu-v10-2",
-      "system": "a5e",
-      "coreVersion": "11.299",
-      "systemVersion": "0.11.10"
-    }
-  },
-  "_stats": {
-    "systemId": "a5e",
-    "systemVersion": "0.11.10",
-    "coreVersion": "11.299",
-    "createdTime": 1684897365964,
-    "modifiedTime": 1685496974497,
-    "lastModifiedBy": "le58SSlnEwEDaewK"
-  },
-  "folder": "uby6e3FteAutfsAM"
+	"name": "Unweaving Uppercut",
+	"type": "feature",
+	"img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+	"system": {
+		"actions": {},
+		"description": "<p>When you roll a 1 on your martial arts die to determine damage against a creature that is casting a spell or is maintaining concentration on a spell or magic effect, you can reroll the die and must use the new roll.</p>\n<p>Beginning at 16th level, you can use this feature when you roll a 1 or a 2 on your martial arts die.</p>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "The Spellbreaker",
+			"link": "https://ravine.itch.io/a5e-subclass04-spellbreaker",
+			"publisher": "ravine"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": null,
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"concentration": false,
+		"featureType": "class",
+		"prerequisite": "Level 11 Adept Spellbreaker archetype"
+	},
+	"effects": [],
+	"flags": {},
+	"folder": "uby6e3FteAutfsAM",
+	"_id": "fxrqdzrfr6nqumq0"
 }

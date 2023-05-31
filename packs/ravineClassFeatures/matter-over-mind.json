@@ -1,80 +1,60 @@
 {
-  "name": "Matter over Mind",
-  "type": "feature",
-  "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
-  "system": {
-    "actions": {
-      "mK5caW4PXMd5hx71": {
-        "name": "Regain Exertion",
-        "activation": {},
-        "consumers": {},
-        "rolls": {},
-        "prompts": {
-          "osWNnPi5OH61UyAj": {
-            "type": "generic",
-            "default": true,
-            "formula": "1d4",
-            "label": "Regain Exertion"
-          }
-        },
-        "uses": {
-          "value": 0,
-          "max": "",
-          "per": "",
-          "recharge": {
-            "formula": "1d6",
-            "threshold": 6
-          }
-        }
-      }
-    },
-    "description": "<p>whenever a creature fails a concentration check because of one of your attacks, you regain 1d4 exertion points.</p>",
-    "favorite": false,
-    "secretDescription": "",
-    "source": {
-      "name": "The Spellbreaker",
-      "link": "https://ravine.itch.io/a5e-subclass04-spellbreaker",
-      "publisher": "ravine"
-    },
-    "uses": {
-      "value": null,
-      "max": "",
-      "per": null,
-      "recharge": {
-        "formula": "1d6",
-        "threshold": "6"
-      }
-    },
-    "schema": {
-      "version": null,
-      "lastMigration": null
-    },
-    "concentration": false,
-    "featureType": "class",
-    "prerequisite": "Level 6 Adept Spellbreaker archetype"
-  },
-  "effects": [],
-  "flags": {
-    "cf": {
-      "id": "temp_w89wfuneot",
-      "path": "Ravine Archetypes#/CF_SEP/Spellbreaker",
-      "color": "#000000"
-    },
-    "core": {},
-    "exportSource": {
-      "world": "lu-v10-2",
-      "system": "a5e",
-      "coreVersion": "11.299",
-      "systemVersion": "0.11.10"
-    }
-  },
-  "_stats": {
-    "systemId": "a5e",
-    "systemVersion": "0.11.10",
-    "coreVersion": "11.299",
-    "createdTime": 1684897037172,
-    "modifiedTime": 1685496974497,
-    "lastModifiedBy": "le58SSlnEwEDaewK"
-  },
-  "folder": "uby6e3FteAutfsAM"
+	"name": "Matter over Mind",
+	"type": "feature",
+	"img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
+	"system": {
+		"actions": {
+			"mK5caW4PXMd5hx71": {
+				"name": "Regain Exertion",
+				"activation": {},
+				"consumers": {},
+				"rolls": {},
+				"prompts": {
+					"osWNnPi5OH61UyAj": {
+						"type": "generic",
+						"default": true,
+						"formula": "1d4",
+						"label": "Regain Exertion"
+					}
+				},
+				"uses": {
+					"value": 0,
+					"max": "",
+					"per": "",
+					"recharge": {
+						"formula": "1d6",
+						"threshold": 6
+					}
+				}
+			}
+		},
+		"description": "<p>whenever a creature fails a concentration check because of one of your attacks, you regain 1d4 exertion points.</p>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "The Spellbreaker",
+			"link": "https://ravine.itch.io/a5e-subclass04-spellbreaker",
+			"publisher": "ravine"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": null,
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"concentration": false,
+		"featureType": "class",
+		"prerequisite": "Level 6 Adept Spellbreaker archetype"
+	},
+	"effects": [],
+	"flags": {},
+	"folder": "uby6e3FteAutfsAM",
+	"_id": "p6gvnkkc2gd6nrnh"
 }

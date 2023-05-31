@@ -1,54 +1,36 @@
 {
-  "name": "Agent of the Magus Expanded Spells",
-  "type": "feature",
-  "img": "icons/sundries/documents/document-letter-tan.webp",
-  "system": {
-    "actions": {},
-    "description": "<p>The following table is added to the list of eligible expanded spells list you can pick when choosing an archetype.</p>\n<table style=\"width: 100%; height: 235.156px;\" border=\"1\"><colgroup><col style=\"width: 21.8318%;\"><col style=\"width: 78.1682%;\"></colgroup>\n<thead>\n<tr>\n<td style=\"text-align: center';\">Spell Levels</td>\n<td style=\"text-align: left; height: 16.7969px;\">Spells</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align: center;\">1st</td>\n<td>@UUID[Compendium.a5e.a5e-spells.h4cib7rjhd5jqfff]{Guiding Bolt}, @UUID[Compendium.a5e.a5e-spells.dgms08g84zdlbr81]{Identify}</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">2nd</td>\n<td><em>Shifting the Odds, @UUID[Compendium.a5e.a5e-spells.i7sh0e2wqmql4cac]{See Invisibility}</em></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">3rd</td>\n<td>@UUID[Compendium.a5e.a5e-spells.usz7we3sepg9tv9d]{Clairvoyance}, @UUID[Compendium.a5e.a5e-spells.yaoaihxyt4dlsysw]{Nondetection}</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">4th</td>\n<td>@UUID[Compendium.a5e.a5e-spells.0cdtrkihoe9jdon1]{Greater Invisibility}, @UUID[Compendium.a5e.a5e-spells.6y4rq48okutkormg]{Phantasmal Killer}</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">5th</td>\n<td>@UUID[Compendium.a5e.a5e-spells.24rmiwo0w5pd746x]{Legend Lore}, @UUID[Compendium.a5e.a5e-spells.r1uc1w5fal5xfe6a]{Seeming}</td>\n</tr>\n</tbody>\n</table>",
-    "favorite": false,
-    "secretDescription": "",
-    "source": {
-      "name": "Agent of the Magus",
-      "link": "https://ravine.itch.io/a5e-subclass01-magus",
-      "publisher": "ravine"
-    },
-    "uses": {
-      "value": null,
-      "max": "",
-      "per": null,
-      "recharge": {
-        "formula": "1d6",
-        "threshold": "6"
-      }
-    },
-    "schema": {
-      "version": null,
-      "lastMigration": null
-    },
-    "concentration": false,
-    "featureType": "class",
-    "prerequisite": "Level 1 Warlock Agent of the Magus"
-  },
-  "effects": [],
-  "flags": {
-    "core": {},
-    "cf": {
-      "id": "temp_3zije0ettbp"
-    },
-    "exportSource": {
-      "world": "lu-v10-2",
-      "system": "a5e",
-      "coreVersion": "11.299",
-      "systemVersion": "0.11.10"
-    }
-  },
-  "_stats": {
-    "systemId": "a5e",
-    "systemVersion": "0.11.10",
-    "coreVersion": "11.299",
-    "createdTime": 1685232999464,
-    "modifiedTime": 1685496468369,
-    "lastModifiedBy": "le58SSlnEwEDaewK"
-  },
-  "folder": "uby6e3FteAutfsAM"
+	"name": "Agent of the Magus Expanded Spells",
+	"type": "feature",
+	"img": "icons/sundries/documents/document-letter-tan.webp",
+	"system": {
+		"actions": {},
+		"description": "<p>The following table is added to the list of eligible expanded spells list you can pick when choosing an archetype.</p>\n<table style=\"width: 100%; height: 235.156px;\" border=\"1\"><colgroup><col style=\"width: 21.8318%;\"><col style=\"width: 78.1682%;\"></colgroup>\n<thead>\n<tr>\n<td style=\"text-align: center';\">Spell Levels</td>\n<td style=\"text-align: left; height: 16.7969px;\">Spells</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align: center;\">1st</td>\n<td>@UUID[Compendium.a5e.a5e-spells.h4cib7rjhd5jqfff]{Guiding Bolt}, @UUID[Compendium.a5e.a5e-spells.dgms08g84zdlbr81]{Identify}</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">2nd</td>\n<td><em>Shifting the Odds, @UUID[Compendium.a5e.a5e-spells.i7sh0e2wqmql4cac]{See Invisibility}</em></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">3rd</td>\n<td>@UUID[Compendium.a5e.a5e-spells.usz7we3sepg9tv9d]{Clairvoyance}, @UUID[Compendium.a5e.a5e-spells.yaoaihxyt4dlsysw]{Nondetection}</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">4th</td>\n<td>@UUID[Compendium.a5e.a5e-spells.0cdtrkihoe9jdon1]{Greater Invisibility}, @UUID[Compendium.a5e.a5e-spells.6y4rq48okutkormg]{Phantasmal Killer}</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">5th</td>\n<td>@UUID[Compendium.a5e.a5e-spells.24rmiwo0w5pd746x]{Legend Lore}, @UUID[Compendium.a5e.a5e-spells.r1uc1w5fal5xfe6a]{Seeming}</td>\n</tr>\n</tbody>\n</table>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "Agent of the Magus",
+			"link": "https://ravine.itch.io/a5e-subclass01-magus",
+			"publisher": "ravine"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": null,
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"concentration": false,
+		"featureType": "class",
+		"prerequisite": "Level 1 Warlock Agent of the Magus"
+	},
+	"effects": [],
+	"flags": {},
+	"folder": "uby6e3FteAutfsAM",
+	"_id": "03j9lks3hrhwopci"
 }

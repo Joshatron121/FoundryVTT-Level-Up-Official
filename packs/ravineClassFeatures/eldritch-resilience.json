@@ -1,56 +1,36 @@
 {
-  "name": "Eldritch Resilience",
-  "type": "feature",
-  "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
-  "system": {
-    "actions": {},
-    "description": "<p>You have honed your ability to maintain concentration under the worst circumstances, and slowly laced your body with magical energy to supplement it.&nbsp;Starting at 11th level, you gain proficiency in&nbsp;<em>Constitution</em> saving throws used to maintain concentration.</p>",
-    "favorite": false,
-    "secretDescription": "",
-    "source": {
-      "name": "The Ruin Strider",
-      "link": "https://ravine.itch.io/a5e-subclass02-ruin-strider",
-      "publisher": "ravine"
-    },
-    "uses": {
-      "value": null,
-      "max": "",
-      "per": null,
-      "recharge": {
-        "formula": "1d6",
-        "threshold": "6"
-      }
-    },
-    "schema": {
-      "version": null,
-      "lastMigration": null
-    },
-    "concentration": false,
-    "featureType": "class",
-    "prerequisite": "Level 11 Ranger Ruin Strider archetype"
-  },
-  "effects": [],
-  "flags": {
-    "cf": {
-      "id": "temp_z8kdjrqsdhp",
-      "path": "Ravine Archetypes#/CF_SEP/Ruin Strider",
-      "color": "#000000"
-    },
-    "core": {},
-    "exportSource": {
-      "world": "lu-v10-2",
-      "system": "a5e",
-      "coreVersion": "11.299",
-      "systemVersion": "0.11.10"
-    }
-  },
-  "_stats": {
-    "systemId": "a5e",
-    "systemVersion": "0.11.10",
-    "coreVersion": "11.299",
-    "createdTime": 1684905368084,
-    "modifiedTime": 1685496794442,
-    "lastModifiedBy": "le58SSlnEwEDaewK"
-  },
-  "folder": "uby6e3FteAutfsAM"
+	"name": "Eldritch Resilience",
+	"type": "feature",
+	"img": "icons/creatures/magical/construct-golem-stone-blue.webp",
+	"system": {
+		"actions": {},
+		"description": "<p>You have honed your ability to maintain concentration under the worst circumstances, and slowly laced your body with magical energy to supplement it.&nbsp;Starting at 11th level, you gain proficiency in&nbsp;<em>Constitution</em> saving throws used to maintain concentration.</p>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "The Ruin Strider",
+			"link": "https://ravine.itch.io/a5e-subclass02-ruin-strider",
+			"publisher": "ravine"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": null,
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"concentration": false,
+		"featureType": "class",
+		"prerequisite": "Level 11 Ranger Ruin Strider archetype"
+	},
+	"effects": [],
+	"flags": {},
+	"folder": "uby6e3FteAutfsAM",
+	"_id": "xllwkzyl65bcouue"
 }

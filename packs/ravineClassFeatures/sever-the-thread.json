@@ -1,56 +1,36 @@
 {
-  "name": "Sever the Thread",
-  "type": "feature",
-  "img": "icons/magic/death/weapon-scythe-rune-green.webp",
-  "system": {
-    "actions": {},
-    "description": "<p>When you use your action to cast a ranger cantrip, you can make one weapon attack as a bonus action.</p>\n<p>You learn an additional cantrip from the list of cantrips in the <em>'</em><em>Errant Seer Magic'</em> feature.</p>",
-    "favorite": false,
-    "secretDescription": "",
-    "source": {
-      "name": "The Errant Seer",
-      "link": "https://ravine.itch.io/a5e-subclass03-errant-seer",
-      "publisher": "ravine"
-    },
-    "uses": {
-      "value": null,
-      "max": "",
-      "per": null,
-      "recharge": {
-        "formula": "1d6",
-        "threshold": "6"
-      }
-    },
-    "schema": {
-      "version": null,
-      "lastMigration": null
-    },
-    "concentration": false,
-    "featureType": "class",
-    "prerequisite": "Level 11 Ranger Errant Seer archetype"
-  },
-  "effects": [],
-  "flags": {
-    "cf": {
-      "id": "temp_f3cdg5bw6w4",
-      "path": "Ravine Archetypes#/CF_SEP/Errant Seer",
-      "color": "#000000"
-    },
-    "core": {},
-    "exportSource": {
-      "world": "lu-v10-2",
-      "system": "a5e",
-      "coreVersion": "11.299",
-      "systemVersion": "0.11.10"
-    }
-  },
-  "_stats": {
-    "systemId": "a5e",
-    "systemVersion": "0.11.10",
-    "coreVersion": "11.299",
-    "createdTime": 1685200818438,
-    "modifiedTime": 1685496269460,
-    "lastModifiedBy": "le58SSlnEwEDaewK"
-  },
-  "folder": "uby6e3FteAutfsAM"
+	"name": "Sever the Thread",
+	"type": "feature",
+	"img": "icons/magic/death/weapon-scythe-rune-green.webp",
+	"system": {
+		"actions": {},
+		"description": "<p>When you use your action to cast a ranger cantrip, you can make one weapon attack as a bonus action.</p>\n<p>You learn an additional cantrip from the list of cantrips in the <em>'</em><em>Errant Seer Magic'</em> feature.</p>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "The Errant Seer",
+			"link": "https://ravine.itch.io/a5e-subclass03-errant-seer",
+			"publisher": "ravine"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": null,
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"concentration": false,
+		"featureType": "class",
+		"prerequisite": "Level 11 Ranger Errant Seer archetype"
+	},
+	"effects": [],
+	"flags": {},
+	"folder": "uby6e3FteAutfsAM",
+	"_id": "hzxpum0mcm7k73il"
 }
