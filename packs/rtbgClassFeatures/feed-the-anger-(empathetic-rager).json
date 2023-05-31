@@ -1,0 +1,36 @@
+{
+	"folder": "61I945E0jnPgUnSo",
+	"name": "Feed the Anger (Empathetic Rager)",
+	"type": "feature",
+	"img": "icons/magic/fire/flame-burning-eye.webp",
+	"system": {
+		"actions": {},
+		"description": "<p dir=\"ltr\">At 14th level, long as you have at least one creature bonded with Empathic Fury who choose to give into the rage, you gain an expertise die on attack rolls. The size of this expertise die increases by 1 step for each creature beyond the first that does so to a maximum of 1d12.</p>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "Mysterious and Marvelous Miscellanea",
+			"link": "https://bit.ly/42ysoNZ",
+			"publisher": "rollThemBones"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": null,
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"concentration": false,
+		"featureType": "class",
+		"prerequisite": "Berserker Level 14; Empathetic Rager Archetype"
+	},
+	"effects": [],
+	"flags": {},
+	"_id": "32ipx035n0646wi4"
+}

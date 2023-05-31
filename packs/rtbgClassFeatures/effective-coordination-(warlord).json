@@ -1,0 +1,36 @@
+{
+	"folder": "61I945E0jnPgUnSo",
+	"name": "Effective Coordination (Warlord)",
+	"type": "feature",
+	"img": "icons/skills/movement/arrows-up-trio-red.webp",
+	"system": {
+		"actions": {},
+		"description": "<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt;\">At 7th level when you use a maneuver from a combat tradition you can use with coordinated maneuvers the maneuver DC increases by 1.<span style=\"mso-spacerun: yes;\">&nbsp; </span>This benefit also applies to allies using such a maneuver at your command.</p>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "Mysterious and Marvelous Miscellanea",
+			"link": "https://bit.ly/42ysoNZ",
+			"publisher": "rollThemBones"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": null,
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"concentration": false,
+		"featureType": "class",
+		"prerequisite": "Marshal Level 7; Warlord Archetype"
+	},
+	"effects": [],
+	"flags": {},
+	"_id": "z5pv43odfkqs4ehd"
+}

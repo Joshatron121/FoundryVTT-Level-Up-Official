@@ -1,0 +1,36 @@
+{
+	"folder": "61I945E0jnPgUnSo",
+	"name": "Dancer’s Grace (Dancer)",
+	"type": "feature",
+	"img": "icons/magic/defensive/shield-barrier-glowing-triangle-magenta.webp",
+	"system": {
+		"actions": {},
+		"description": "<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt;\">Also at 3rd level, when you are not wearing armor and not wielding a shield, your AC is equal to 10 + your Dexterity modifier + your Charisma modifier.</p>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "Mysterious and Marvelous Miscellanea",
+			"link": "https://bit.ly/42ysoNZ",
+			"publisher": "rollThemBones"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": null,
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"concentration": false,
+		"featureType": "class",
+		"prerequisite": "Bard Level 3; Dancer Archetype"
+	},
+	"effects": [],
+	"flags": {},
+	"_id": "ygp2nw3ayfnym5ak"
+}

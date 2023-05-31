@@ -1,0 +1,36 @@
+{
+	"folder": "61I945E0jnPgUnSo",
+	"name": "Ultimate Sacrifice (Sacrificial Ritemaster)",
+	"type": "feature",
+	"img": "icons/magic/fire/projectile-feathers-embers-gold.webp",
+	"system": {
+		"actions": {},
+		"description": "<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt;\">At 14th level, you can expend 5 Burning Boon charges to cast the&nbsp;<em>resurrection</em>&nbsp;spell, no material component required.<span style=\"mso-spacerun: yes;\">&nbsp; </span>You can only cast <em>resurrection</em> on a particular creature once in this way. You also do not need to concentrate on a <em>bless</em> spell cast using Burning Boon charges.</p>\n<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt;\">You also gain the&nbsp;<em>flame strike</em>&nbsp;spell, it is always prepared, and does not count against the number of spells you have prepared.</p>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "Mysterious and Marvelous Miscellanea",
+			"link": "https://bit.ly/42ysoNZ",
+			"publisher": "rollThemBones"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": null,
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"concentration": false,
+		"featureType": "class",
+		"prerequisite": "Druid Level 14; Sacrificial Ritemaster Archetype"
+	},
+	"effects": [],
+	"flags": {},
+	"_id": "smxib1y2hwiu07i0"
+}

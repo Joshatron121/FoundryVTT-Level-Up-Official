@@ -1,0 +1,36 @@
+{
+	"folder": "61I945E0jnPgUnSo",
+	"name": "Battlefield Commander (Warlord)",
+	"type": "feature",
+	"img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+	"system": {
+		"actions": {},
+		"description": "<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt;\">When you select this archetype at 3rd level your feats of combat prowess inspires your allies.</p>\n<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt;\">When you reduce a creature to 0 hit points with a weapon attack, allies within your commanding presence that can see you when you do so gain an expertise die on attack rolls until the end of your next turn.<span style=\"mso-spacerun: yes;\">&nbsp; </span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt;\">You also gain proficiency with a bonus combat tradition of your choice.</p>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "Mysterious and Marvelous Miscellanea",
+			"link": "https://bit.ly/42ysoNZ",
+			"publisher": "rollThemBones"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": null,
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"concentration": false,
+		"featureType": "class",
+		"prerequisite": "Marshal Level 3; Warlord Archetype"
+	},
+	"effects": [],
+	"flags": {},
+	"_id": "r51nu2x2i2aaqs93"
+}

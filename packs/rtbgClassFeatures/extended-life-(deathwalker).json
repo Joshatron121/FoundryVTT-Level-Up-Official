@@ -1,0 +1,36 @@
+{
+	"folder": "61I945E0jnPgUnSo",
+	"name": "Extended Life (Deathwalker)",
+	"type": "feature",
+	"img": "icons/magic/unholy/silhouette-light-fire-blue.webp",
+	"system": {
+		"actions": {},
+		"description": "<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt;\">At 10th level, you can hold your breath indefinitely, and you don't require food, water, or sleep, although you still require rest to reduce fatigue and strife and still benefit from finishing short and long rests.</p>\n<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt;\">In addition, your hit point maximum cannot be reduced, and you gain resistance to necrotic damage.</p>",
+		"favorite": false,
+		"secretDescription": "",
+		"source": {
+			"name": "Mysterious and Marvelous Miscellanea",
+			"link": "https://bit.ly/42ysoNZ",
+			"publisher": "rollThemBones"
+		},
+		"uses": {
+			"value": null,
+			"max": "",
+			"per": null,
+			"recharge": {
+				"formula": "1d6",
+				"threshold": "6"
+			}
+		},
+		"schema": {
+			"version": null,
+			"lastMigration": null
+		},
+		"concentration": false,
+		"featureType": "class",
+		"prerequisite": "Warlock Level 10; Deathwalker Archetype"
+	},
+	"effects": [],
+	"flags": {},
+	"_id": "opje70qmavpowgk4"
+}
