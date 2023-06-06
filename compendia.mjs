@@ -132,13 +132,16 @@ export function saveIds() {
         if (!currentId) return;
 
         const filename = path.parse(file).name;
-        const savedId = savedIdData[folder.name][filename];
+        const savedId = savedIdData[folder.name]?.[filename];
 
         if (currentId === savedId) return;
 
+        savedIdData[folder.name] ??= {};
         savedIdData[folder.name][filename] = currentId;
+
         numAdds += 1;
       } catch (e) {
+        console.log(e);
         console.warn(`[ERROR] - ${file} failed to parse.`);
       }
     });
