@@ -4,6 +4,8 @@ extern crate serde;
 
 // use serde::Deserialize;
 use serde_json::{json, Map, Value};
+use rand::{thread_rng, Rng};
+use rand::distributions::Alphanumeric;
 use std::collections::HashSet;
 use std::path::PathBuf;
 use std::{ fs, path };
@@ -14,6 +16,26 @@ const PACK_SRC: &str = "../packs/";
 
 struct CleanOptions {
   clear_source_id: bool,
+}
+
+fn random_id() -> String {
+  let rand_string: String = thread_rng()
+    .sample_iter(&Alphanumeric)
+    .take(16)
+    .map(char::from)
+    .collect();
+
+  rand_string
+}
+
+fn generate_id(ids: &mut HashSet<String>) -> String {
+  let mut new_id = random_id();
+  while ids.contains(&new_id) {
+    new_id = random_id();
+  }
+
+  ids.insert(new_id.clone());
+  new_id
 }
 
 fn clean_document(document: &mut Map<String, Value>, options: CleanOptions) {
@@ -92,7 +114,7 @@ fn main() {
 
 
     // Get existing ids
-    // let ids = get_existing_ids(&folder_paths);
+    let mut ids = get_existing_ids(&folder_paths);
 
     // Iterate through all the files, sanitize them, and write them to the db
     for folder in folder_paths {
@@ -103,11 +125,22 @@ fn main() {
           fs::read_to_string(file_name.unwrap()).unwrap().as_str(),
         ).expect("JSON was not well-formatted");
 
-        if json_data["_id"].is_null() {
-          // TODO: Do advanced id stuff
+        if !json_data["_id"].is_null() {
+
+          json_data["_id"] = match json_data["flags"]["core"]["sourceId"].as_str() {
+            Some(id) => match id.rsplit_once(".") {
+              Some((_, id)) => Value::String(id.to_string()),
+              None => Value::String(generate_id(&mut ids)),
+            },
+            None => Value::String(generate_id(&mut ids)),
+          };
+
+
+          println!("Previous id: {:?}", &json_data["_id"]);
+
+
         } else {
           clean_document(&mut json_data, CleanOptions { clear_source_id: false });
-          // println!("{}", json_data);
         }
       }
     }
