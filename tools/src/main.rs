@@ -3,7 +3,7 @@ extern crate leveldb;
 extern crate serde;
 
 // use serde::Deserialize;
-use serde_json::Value;
+use serde_json::{json, Map, Value};
 use std::collections::HashSet;
 use std::path::PathBuf;
 use std::{ fs, path };
@@ -12,7 +12,50 @@ use std::{ fs, path };
 const PACK_SRC: &str = "../packs/";
 // const ID_FILE_PATH: &str = "../packs/ids.json";
 
-// fn clean_document(document: Value) {
+struct CleanOptions {
+  clear_source_id: bool,
+}
+
+fn clean_document(document: &mut Map<String, Value>, options: CleanOptions) {
+  if !document.contains_key("flags") {
+    document.insert("flags".to_string(), json!({}));
+  }
+
+  // Clean up flags
+  let flags: &mut Map<String, Value> = document.get_mut("flags").unwrap().as_object_mut().unwrap();
+  flags.remove("exportSource");
+  flags.remove("importSource");
+  if options.clear_source_id {
+    flags.get_mut("core").unwrap().as_object_mut().unwrap().remove("sourceId");
+  }
+
+  let remove_keys: Vec<_> = flags.iter()
+    .filter(|(key, _)| !["core", "a5e"].contains(&key.as_str()))
+    .map(|(key, _)| key.to_string())
+    .collect();
+
+  remove_keys.iter().for_each(|key| {
+    flags.remove(key);
+  });
+
+  // Clean up permissions & stats
+  document.remove("ownership");
+  document.remove("_stats");
+
+  // Recurse through effects and items
+  if document.contains_key("effects") {
+    let effects = document.get_mut("effects").unwrap().as_array_mut().unwrap();
+    for effect in effects {
+      clean_document(effect.as_object_mut().unwrap(), CleanOptions { clear_source_id: false });
+    }
+  }
+
+  if document.contains_key("items") {
+    let items = document.get_mut("items").unwrap().as_array_mut().unwrap();
+    for item in items {
+      clean_document(item.as_object_mut().unwrap(), CleanOptions { clear_source_id: false });
+    }
+  }
 }
 
 fn get_existing_ids(folders: &Vec<path::PathBuf>) -> HashSet<String> {
@@ -56,16 +99,16 @@ fn main() {
       let file_names = glob::glob(&format!("{}/*.json", folder.display())).unwrap();
 
       for file_name in file_names {
-        let json_data: Value = serde_json::from_str(
+        let mut json_data: Map<String, Value> = serde_json::from_str(
           fs::read_to_string(file_name.unwrap()).unwrap().as_str(),
         ).expect("JSON was not well-formatted");
 
         if json_data["_id"].is_null() {
           // TODO: Do advanced id stuff
         } else {
-          // clean_document(&json_data);
+          clean_document(&mut json_data, CleanOptions { clear_source_id: false });
+          // println!("{}", json_data);
         }
-
       }
     }
 }
