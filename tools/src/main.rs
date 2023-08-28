@@ -1,16 +1,17 @@
 extern crate glob;
-extern crate leveldb;
+extern crate rusty_leveldb;
 extern crate serde;
 
-// use serde::Deserialize;
 use rand::distributions::Alphanumeric;
 use rand::{thread_rng, Rng};
+use rusty_leveldb::{Options, WriteBatch, DB};
+// use serde::Deserialize;
 use serde_json::{json, Map, Value};
 use std::collections::HashSet;
 use std::path::PathBuf;
 use std::{fs, path};
 
-// const PACK_DEST: &str = "../public/packs/";
+const PACK_DEST: &str = "../public/packs/";
 const PACK_SRC: &str = "../packs/";
 // const ID_FILE_PATH: &str = "../packs/ids.json";
 
@@ -136,12 +137,14 @@ fn main() {
     for folder in folder_paths {
         let file_names = glob::glob(&format!("{}/*.json", folder.display())).unwrap();
 
+        let mut documents: Vec<Map<String, Value>> = Vec::new();
+
         for file_name in file_names {
             let mut json_data: Map<String, Value> =
                 serde_json::from_str(fs::read_to_string(file_name.unwrap()).unwrap().as_str())
                     .expect("JSON was not well-formatted");
 
-            if !json_data["_id"].is_null() {
+            if json_data["_id"].is_null() {
                 json_data["_id"] = match json_data["flags"]["core"]["sourceId"].as_str() {
                     Some(id) => match id.rsplit_once(".") {
                         Some((_, id)) => Value::String(id.to_string()),
@@ -149,8 +152,6 @@ fn main() {
                     },
                     None => Value::String(generate_id(&mut ids)),
                 };
-
-                println!("Previous id: {:?}", &json_data["_id"]);
             } else {
                 clean_document(
                     &mut json_data,
@@ -159,6 +160,133 @@ fn main() {
                     },
                 );
             }
+            documents.push(json_data);
         }
+
+        let db_name = folder.file_name().unwrap().to_str().unwrap();
+        write_to_db(documents, db_name);
     }
+}
+
+// Move to different file
+fn write_to_db(documents: Vec<Map<String, Value>>, db_name: &str) {
+    let path = [PACK_DEST, db_name].iter().collect::<PathBuf>();
+
+    let mut options = Options::default();
+    options.create_if_missing = true;
+    let mut database = match DB::open(&path, options) {
+        Ok(db) => db,
+        // TODO: Change to error
+        Err(e) => panic!("Failed to open database: {:?}", e),
+    };
+
+    let mut batch = WriteBatch::new();
+
+    for mut document in documents {
+        let mut collection_type = "items";
+        if ["character", "npc"].contains(&document["type"].as_str().unwrap()) {
+            collection_type = "actors";
+
+            // Map items to item_ids and add items as separate documents
+            // let mut item_ids: Vec<String> = Vec::new();
+
+            // let items = document.get("items").unwrap().as_array().unwrap();
+
+            // for item in items {
+            //     let item_id = item["_id"].as_str().unwrap();
+            //     item_ids.push(item_id.to_string());
+
+            //     let key = format!(
+            //         "!actors.items!{}.{}",
+            //         document["_id"].clone().as_str().unwrap(),
+            //         item_id
+            //     );
+
+            //     batch.put(
+            //         &key.as_bytes(),
+            //         serde_json::to_string(&item).unwrap().as_bytes(),
+            //     );
+            // }
+
+            // document.insert("items".to_string(), json!(item_ids));
+            add_sublevel_to_db(&mut document, "actors", "items")
+        }
+
+        // Map effects to effect_ids and add effects as separate documents
+        // FIXME: Effects need to be done for both actors and items so key needs to change. It also needs to be done for nested items on actors
+        if document.contains_key("effects") {
+            let mut effect_ids: Vec<String> = Vec::new();
+
+            let effects = document.get("effects").unwrap().as_array().unwrap();
+            for effect in effects {
+                let effect_id = effect["_id"].as_str().unwrap();
+                effect_ids.push(effect_id.to_string());
+
+                let key = format!(
+                    "!actors.effects!{}.{}",
+                    document["_id"].clone().as_str().unwrap(),
+                    effect_id
+                );
+
+                batch.put(
+                    &key.as_bytes(),
+                    serde_json::to_string(&effect).unwrap().as_bytes(),
+                );
+            }
+
+            document.insert("effects".to_string(), json!(effect_ids));
+        }
+
+        // Key is in the form collectionName!id
+        let key = format!(
+            "!{}!{}",
+            collection_type,
+            &document["_id"].as_str().unwrap()
+        );
+
+        batch.put(
+            &key.as_bytes(),
+            serde_json::to_string(&document).unwrap().as_bytes(),
+        );
+    }
+
+    match database.write(batch, true) {
+        Ok(_) => println!("[INFO] - Successfully wrote to database."),
+        Err(e) => panic!("Failed to write to database: {:?}", e),
+    }
+}
+
+fn add_sublevel_to_db(
+    document: &mut Map<String, Value>,
+    document_name: &str,
+    collection_type: &str,
+) {
+    let mut batch = WriteBatch::new();
+
+    // Map items to item_ids and add items as separate documents
+    let mut item_ids: Vec<String> = Vec::new();
+
+    let items = document.get(collection_type).unwrap().as_array().unwrap();
+
+    for item in items {
+        let item_id = item["_id"].as_str().unwrap();
+        item_ids.push(item_id.to_string());
+
+        let key = format!(
+            "!{}.{}!{}.{}",
+            document_name,
+            collection_type,
+            document["_id"].clone().as_str().unwrap(),
+            item_id
+        );
+
+        batch.put(
+            &key.as_bytes(),
+            serde_json::to_string(&item).unwrap().as_bytes(),
+        );
+    }
+
+    document.insert("items".to_string(), json!(item_ids));
+
+    add_sublevel_to_db(document, document_name, "effects");
 }
